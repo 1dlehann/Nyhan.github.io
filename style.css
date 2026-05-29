@@ -132,12 +132,19 @@ section {
     color: #333;
 }
 #kontak{
-    background-color: #222; 
+    background-color: #222;
     color: #fff;            
     padding: 15px 20px;     
     text-align: center;     
     font-size: 35px;
     font-family: Arial, sans-serif; 
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+#kontak p{
+     display: inline-block; 
+    margin: 0 10px
 }
 @media (max-width: 768px) {
 
